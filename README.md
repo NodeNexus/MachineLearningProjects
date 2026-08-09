@@ -18,6 +18,13 @@ This repository contains Machine Learning practical assignments and their corres
   - Lasso Regression
 - **Features:** Includes a custom input cell at the end of the notebook to interactively predict house prices by providing custom values.
 
+### 3. Concept Learning Algorithms (`PRAC3.ipynb`)
+- **Dataset:** Enjoy Sports dataset (`enjoy.csv`)
+- **Description:** Implementation of fundamental concept learning algorithms (Find-S and Candidate Elimination) to derive specific and general hypotheses from the dataset.
+- **Algorithms Implemented:**
+  - Find-S Algorithm
+  - Candidate Elimination Algorithm
+
 ## Prerequisites
 
 To run these notebooks, you will need Python installed along with the following libraries:
@@ -41,7 +48,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
    ```bash
    jupyter notebook
    ```
-4. Open `PRAC1.ipynb` or `PRAC2.ipynb` to view the code and execute the cells step by step.
+4. Open `PRAC1.ipynb`, `PRAC2.ipynb`, or `PRAC3.ipynb` to view the code and execute the cells step by step.
 
 ---
 *Created for Semester 5 - Machine Learning Lab*
