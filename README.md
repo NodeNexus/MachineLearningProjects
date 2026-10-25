@@ -33,6 +33,10 @@ This repository contains Machine Learning practical assignments and their corres
 - **Dataset:** Raisin dataset (Raisin_Dataset.xlsx)
 - **Description:** Implementation of Gaussian Naïve Bayes algorithm for classifying raisin varieties (Kecimen vs. Besni). Includes EDA, distribution visualizations, evaluation using precision, recall, F1-score, confusion matrix, ar_smoothing hyperparameter tuning, and custom sample inference.
 
+### 8. Support Vector Machine (SVM) Classifier (Prac8/PRAC8.ipynb)
+- **Dataset:** AI4I 2020 Predictive Maintenance dataset (ai4i2020.csv)
+- **Description:** Implementation of Support Vector Machine (SVM) algorithm for binary classification on machine failure prediction. Includes data preprocessing with StandardScaler and OneHotEncoder via ColumnTransformer, baseline Linear and RBF kernel SVM modeling, 5-fold cross-validated hyperparameter tuning (GridSearchCV over C and gamma), and performance evaluation using accuracy, precision, recall, F1-score, and confusion matrices.
+
 ## Prerequisites
 
 To run these notebooks, install Python along with the following libraries:
